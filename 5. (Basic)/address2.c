@@ -1,6 +1,7 @@
-//Print your address i) using (\n)
+// Print your address i) using (\n)
 
-#include<stdio.h>
-void main(){
+#include <stdio.h>
+void main()
+{
 	printf("Darshan University \nRajkot-Morbi Highway \nHadala \n123456");
 }

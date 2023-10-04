@@ -1,13 +1,14 @@
-//Print area of triangle. ((height*base)/2)
+// Print area of triangle. ((height*base)/2)
 
-#include<stdio.h>
-void main(){
-	int h,b;
+#include <stdio.h>
+void main()
+{
+	int h, b;
 	float area;
 	printf("Enter Height : ");
-	scanf("%d",&h);
+	scanf("%d", &h);
 	printf("Enter Base : ");
-	scanf("%d",&b);
-	area = (h*b)/2;
-	printf("Area Of Tringle : %f",area);	
+	scanf("%d", &b);
+	area = (h * b) / 2;
+	printf("Area Of Tringle : %f", area);
 }
